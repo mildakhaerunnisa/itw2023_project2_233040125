@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: #3F2305;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.main-color {
+    background-color: #CBAF87 !important;
+}
+
+
+.btns button{
+    border: 1px solid #CBAF87;
+   background-color: #CBAF87;
+   color: #F0F0F0;
+}
+
+.btns button:hover{
+    background-color: #CBAF87;
+}
+
+span {
+    color: #CBAF87;
+}
+
+.shadow-on-hover {
+    transition: all .2s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+
+
+/* Navbar */
+#logo {
+    width: 50px;
+}
+
+.nav-item .nav-link {
+    color: #3F2305;
+    margin-left: 35px;
+    transition: all .5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #F0F0F0;
+}
+
+
+
+
+/* Home Seection */
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/home.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    margin-top: 30px;
+}
+
+/* About Section */
+#about {
+    width: 100%;
+    height: 100vh;
+}
+.about {
+    width: 100%;
+    height: 70%;
+    padding: 40px 0;
+}
+
+/* Services Section */
+.services {
+    width: 100%;
+    padding-top: 90px;
+    margin-bottom: 40px;
+}
+
+.card-body img {
+    width: 35%;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-left: 80px;
+    padding-top: 90px;
+}
+
+.row .col-lg-6{
+    margin-top: 50px;
+}
+
+.row form {
+    margin-right: 60px;
+}
+
+form textarea {
+    resize: none;
+}
+
+
+/* Menu CSS */
+section {
+    margin-top: 100px;
+}
+
+.container .nav-pills .nav-link {
+    background-color: #F0F0F0;
+    color: #3F2305;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 100px;
+}
+
+.container .nav-pills .nav-link.active {
+    background-color: #CBAF87;
+}
+
+.menu-item p {
+    font-size: 15px;
+}
